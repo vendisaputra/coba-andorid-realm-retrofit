@@ -7,7 +7,6 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-import id.padipos.android.domain.dto.MerchantPreferencesDTO;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -27,9 +26,6 @@ public class ResponseDataObject<T> implements Parcelable {
 
     @SerializedName("menu")
     private List<String> menu;
-
-    @SerializedName("merchantPreferences")
-    private MerchantPreferencesDTO merchantPreferences;
 
     protected ResponseDataObject(Parcel in) {
         status = in.readString();

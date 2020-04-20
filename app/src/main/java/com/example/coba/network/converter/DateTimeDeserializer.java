@@ -10,9 +10,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
-import java.util.TimeZone;
 
-import id.padipos.android.PadiPosApplication;
 
 /**
  * https://kylewbanks.com/blog/String-Date-Parsing-with-GSON-UTC-Time-Zone
